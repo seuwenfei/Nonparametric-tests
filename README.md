@@ -1,6 +1,6 @@
 # Non-parametric Tests in SAS
 
-This repository contains non-parametric tests such as Shapiro-Wilk, Wilcoxon Rank Sum, Ansari-Bradley, Kolmogorov-Smirnov, Kruskal-Wallis and Spearman's Correlation Tests using SAS. The procedures including `UNIVARIATE`, `NPAR1WAY` and `CORR`. 
+This repository contains non-parametric tests such as Shapiro-Wilk, Wilcoxon Rank Sum, Ansari-Bradley, Kolmogorov-Smirnov, Kruskal-Wallis and Spearman's Correlation Tests. The procedures including `UNIVARIATE`, `NPAR1WAY` and `CORR`. 
 
 In this analysis, the Shapiro-Wilk is used to determine the normality for BMI and Systolic Blood Pressure only. According to Figure 3, the p-values for BMI and systolic blood pressure are > 0.0001 and less than the alpha value (0.05). The null hypothesis is rejected and conclude the data are not from a population with a normal distribution. Therefore non-parametric test will be used.
 
